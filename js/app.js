@@ -34,10 +34,11 @@ function zoom (){
 
 Next, create a function named valueMenu that will display your favorite items in the paragraph the the id of `menu` after clicking on the showMenu paragraph.*/
 
-var menuItems = ["fries", "dollar cheeseburger", "apple pie"]
+var menuItems = ["fries", " dollar cheeseburger", " apple pie"]
 
 function valueMenu (){
-
+    var menuElem = document.getElementById ("menu");
+    menuElem.innerHTML = menuItems
 }
 
 //5. Gin.
